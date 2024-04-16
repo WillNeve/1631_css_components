@@ -1,0 +1,37 @@
+/* --- Google Fonts --- */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Montserrat:wght@400;700");
+
+@import url("components/container.css");
+@import url("components/card.css");
+
+/* --- Fonts --- */
+body {
+  font-family: "Open Sans", "Helvetica", "sans-serif";
+  padding-bottom: 200px;
+  margin: 0;
+  background-image: url("https://images.unsplash.com/photo-1611080626919-7cf5a9dbab5b?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+h1, h2, h3 {
+  font-family: "Montserrat", "sans-serif";
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+.container {
+  margin: 0 auto;
+  max-width: 700px;
+}
+.text-center {
+  text-align: center;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  margin: 0;
+}
+.list-inline li {
+  display: inline-block;
+}
