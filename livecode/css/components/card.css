@@ -24,7 +24,6 @@
   top: 10px;
 }
 
-
 .card-product .top .rating {
   display: flex;
   column-gap: 5px;
@@ -59,13 +58,13 @@
   width: 100%;
 }
 
-
 .card-product .top .info {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding-left: 10px;
 }
+
 .card-product .top .info h2 {
   font-size: 16px;
   font-weight: bold;
@@ -90,7 +89,6 @@
   background-color: rgb(39, 146, 63);
   cursor: grab;
 }
-
 
 .card-product .middle {
   height: 38%;
