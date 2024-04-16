@@ -1,0 +1,55 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 100px;
+  border: 2px dashed blue;
+}
+
+/* ------------------------------------------------ */
+.card-product {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  border: 1px gray solid;
+  border-radius: 10px;
+  width: 500px;
+  height: 150px;
+  overflow: hidden;
+}
+
+.card-product img {
+  width: 30%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-product div {
+  height: fit-content;
+}
+
+.card-product h3, .card-product p {
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+/* ------------------------------------------------ */
+
+.card-category {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 300px;
+  height: 200px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, .2);
+  background-image: linear-gradient(rgba(0,0,0, .5), rgba(0,0,0, .5)), url("https://images.unsplash.com/photo-1710335599656-6fcf9fecaeb4?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+/* ------------------------------------------------ */
